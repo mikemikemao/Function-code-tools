@@ -1,0 +1,7 @@
+((CComboBox *)GetDlgItem(IDC_DIFFER_FP))->SetCurSel(0);
+
+//1. 取当前内容
+((CComboBox*)GetDlgItem(IDC_COMBO_CF))->GetWindowText(strTemp);
+
+//2. 取其他行内容
+((CComboBox*)GetDlgItem(IDC_COMBO_CF))->GetLBText(n,strTemp);
